@@ -16,7 +16,7 @@ for($num=1; $num<= 100; $num++)
 		echo "bar ";
   	}else
 	{
-		echo $num;
+		echo $num." ";
   	}
 }
 
