@@ -6,9 +6,18 @@
 for($num=1; $num<= 100; $num++)
 {
 	if($um % 3 == 0 AND $num % 5 == 0)
-  {
-    echo "foobar";
-  }
+  	{
+    		echo "foobar";
+  	}elseif($um % 3 == 0)
+	{
+		echo "foo";
+  	}elseif($um % 5 == 0)
+	{
+		echo "bar";
+  	}else
+	{
+		echo $num;
+  	}
 }
 
 ?>
